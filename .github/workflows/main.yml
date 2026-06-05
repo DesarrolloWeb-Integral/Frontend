@@ -11,3 +11,11 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello World"
+
+      - name: Fecha
+        run: date
+
+      - name: Quien soy
+        run: who
+
+  
