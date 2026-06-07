@@ -14,4 +14,4 @@ jobs:
           echo "ID: ${{ github.event.head_commit.id }}"
           echo "URL: ${{ github.event.head_commit.url }}"
           echo "Rama: ${{ github.ref_name }}"
-          echo "Repositorio: ${{ github.repository }}""
+          echo "Repositorio: ${{ github.repository }}"
