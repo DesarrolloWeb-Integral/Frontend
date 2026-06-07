@@ -1,0 +1,21 @@
+# Isaac Cano Hernandez
+name: Datos del Pull Request
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, closed]
+
+jobs:
+  # My Job 1
+  Tarea1:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Mostrar datos del Pull Request
+        run: |
+          echo "Rama destino: ${{ github.event.pull_request.base.ref }}"
+          echo "Rama origen: ${{ github.event.pull_request.head.ref }}"
+          echo "Titulo: ${{ github.event.pull_request.title }}"
+          echo "Contenido:  ${{ github.event.pull_request.body }}"
+          echo "Estado: ${{ github.event.pull_request.state }}"
+          echo "Fue fusionado: ${{ github.event.pull_request.merged }}"
