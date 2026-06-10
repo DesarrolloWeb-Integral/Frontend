@@ -5,6 +5,8 @@ function App() {
 
       <h2>Test 1</h2>
 
+      <p>Hecho por Isaac Cano Hernandez</p>
+
       <p>Proyecto frontend creado con React y TypeScript.</p>
     </main>
   )
