@@ -1,9 +1,9 @@
 name: First Push
-on: 
+on:
   push:
 
 jobs:
-  Tarea1: 
+  Tarea1:
     runs-on: ubuntu-22.04
 
     steps:
